@@ -11,12 +11,22 @@
 
 nav:
   # Navigation bar logo image
-  logo:
-  display_title: true
   # Whether to fix navigation bar
-  fixed: false
+  logo: /image/logo.gif
+  display_title: true
+  fixed: false # fixed navigation bar
+  post_asset_folder: true
 
 menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+
   # Home: / || fas fa-home
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
@@ -55,7 +65,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /imgage/userHeaderImg.jpg
   effect: false
 
 # Disable all banner images
@@ -65,10 +75,10 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /image/bgBackground.png
 
 # The banner image of archive page
-archive_img:
+archive_img: /image/bgBackground.png
 
 # Note: tag page, not tags page
 tag_img:
